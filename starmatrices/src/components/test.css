@@ -1,0 +1,33 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    max-width: 80%;
+    margin-left: 10%;
+    border-radius: 1px solid red;
+    height: 200px;
+}
+
+
+
+.testimage {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    animation: bounce 2s infinite;
+    margin: 15px;
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}

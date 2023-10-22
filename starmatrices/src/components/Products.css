@@ -1,0 +1,54 @@
+/* Products.css */
+
+.heading{
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #00FFFF;
+  font-size: 44px;
+  margin-top: 50px;
+  margin-left: 40%;
+  text-decoration: underline;
+}
+
+.products {
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+  gap: 30px; /* Gap between grid items */
+  margin: 0 auto; /* Center the product container horizontally */
+  max-width: 80%; /* Set a max-width for the product container */
+}
+
+.product {
+  border: 1px solid red;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  border-radius: 10px;
+  height: 200px;
+  box-shadow: 1px salmon;
+}
+
+.product img {
+  max-width: 50%; /* Ensure images don't exceed their container width */
+  height: 45%; /* Maintain image aspect ratio */
+  margin-top: 10px;
+  margin-right: 80%;
+  margin-left: 10%;
+  margin-bottom: 20px; /* Add some space between image and text */
+}
+
+.product h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: aliceblue; 
+}
+

@@ -1,0 +1,64 @@
+/* Contact.css */
+
+.container-contact {
+    margin-top: 50%;
+    margin-left: 20%;
+    display: flex; 
+    align-items: stretch;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .form {
+    margin-left: 15%;
+    width: 30%;
+    height: 80%;
+  }
+  
+  .image {
+    margin-top: 5%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: stretch; /* Stretch the image vertically */
+  }
+  
+  img {
+    width: 100%; /* Set the width of the image to 100% */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 50px; /* Increase the margin to create a gap */
+    border: 1px solid #FF0000; /* Set the border color to red */
+    background-color: #000000; /* Set the background color to black */
+    color: #FFFFFF; /* Set the text color to white */
+    border-radius: 5px;
+  }
+  
+  
+  textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px; /* Increase the margin to create a gap */
+    border: 1px solid #FF0000; /* Set the border color to red */
+    background-color: #000000; /* Set the background color to black */
+    color: #FFFFFF; /* Set the text color to white */
+    border-radius: 5px;
+  }
+  
+  .btn-contact {
+    width: 100%;
+    padding: 10px;
+    background-color: #410c0c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Add more CSS styles as needed to customize your form's appearance */
+  

@@ -1,0 +1,68 @@
+/* About.css */
+img {
+    max-width: 50%; /* Set the maximum width to the container width */
+    max-height: 50%; /* Set the maximum height to the container height */
+    display: block; /* Remove any extra space around the image */
+    margin: 0 auto; /* Center the image horizontally within its container */
+  }
+
+.abt{
+    margin-top: 60px;
+  }
+
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* About.css */
+
+.about-container {
+    margin-top: 20px;
+    padding: 30px 0;
+    background-color: f4decb;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid red;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 40px;
+  }
+  
+  .about-image {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-image img {
+    max-width: 50%;
+    height: 50%;
+  }
+  
+  .about-text {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+    margin-left: 30px;
+  }
+  
+  .about-heading {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+  }
+  
+  .about-paragraph {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  
