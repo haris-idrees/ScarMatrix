@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ScarMatrix/static/css/main.9c081086.css",
+    "main.js": "/ScarMatrix/static/js/main.72cd9267.js",
+    "static/js/787.a4bccee5.chunk.js": "/ScarMatrix/static/js/787.a4bccee5.chunk.js",
+    "static/media/3.jpg": "/ScarMatrix/static/media/3.1dc335d623f5fe97253b.jpg",
+    "static/media/soft.png": "/ScarMatrix/static/media/soft.6f41a99af40ec97e3f1e.png",
+    "static/media/4.jpg": "/ScarMatrix/static/media/4.9b080aa10cb7db3c523a.jpg",
+    "static/media/why.png": "/ScarMatrix/static/media/why.e03fdb6f0a01d50e7a0c.png",
+    "static/media/mission.jpg": "/ScarMatrix/static/media/mission.9d9704f0572197536a97.jpg",
+    "static/media/meeting.jpg": "/ScarMatrix/static/media/meeting.a8f0102e2e679ba0eb7e.jpg",
+    "static/media/react.png": "/ScarMatrix/static/media/react.09d61878fcbe3915bab5.png",
+    "static/media/mobo.png": "/ScarMatrix/static/media/mobo.5b88ea39ae371643edbd.png",
+    "static/media/web.png": "/ScarMatrix/static/media/web.441351a888af01fe11ed.png",
+    "static/media/mysql.png": "/ScarMatrix/static/media/mysql.518c94ab088915646ec7.png",
+    "static/media/kotlin.png": "/ScarMatrix/static/media/kotlin.071a94927eb57d041803.png",
+    "static/media/logo.svg": "/ScarMatrix/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ScarMatrix/index.html",
+    "main.9c081086.css.map": "/ScarMatrix/static/css/main.9c081086.css.map",
+    "main.72cd9267.js.map": "/ScarMatrix/static/js/main.72cd9267.js.map",
+    "787.a4bccee5.chunk.js.map": "/ScarMatrix/static/js/787.a4bccee5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c081086.css",
+    "static/js/main.72cd9267.js"
+  ]
+}
