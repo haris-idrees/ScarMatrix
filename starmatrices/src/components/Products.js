@@ -6,7 +6,7 @@ import serv from './images/serv.jpg';
 function Products() {
     return (
         <>
-            <h1 className='heading'>Products</h1>
+            <h1 className='heading_prod'>Products</h1>
             <div className='container'>
                 <div className='products'>
                     <div className='product-container'>
@@ -32,11 +32,7 @@ function Products() {
                             <h3 className='pro-head'>Services Hospital</h3>
                         </div>
 
-                        {/* Product 2 */}
-                        <div className='product'>
-                            <img src={pic} alt="Product 2" />
-                            <h3 className='pro-head'>Heera builders</h3>
-                        </div>
+                       
                     </div>
                 </div>
             </div>

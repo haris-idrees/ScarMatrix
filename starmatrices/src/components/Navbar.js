@@ -1,17 +1,15 @@
-import React, { useState } from 'react';
-import '../components/Navbar.css';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import { Link } from 'react-scroll';
+import { useState } from 'react';
+import './Navbar.css';
 import { Link as ScrollLink, scroller } from 'react-scroll';
 
-const Navbar = () => {
-  const [isMenuOpen, setMenuOpen] = useState(false);
+function Navbar() {
 
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
-  };
+  const [menuOpen, setmenuOpen] = useState(false)
 
   const closeMenu = () => {
-    setMenuOpen(false);
+    setmenuOpen(false);
   };
 
   const scrollToAbout = () => {
@@ -40,64 +38,61 @@ const Navbar = () => {
       smooth: 'easeInOutQuint',
     });
   };
-
   return (
-    <>
-      <nav className='navbar'>
-        <div className='navbar-container nav-fixed'>
-          <Link to="/" className='navbar-logo' style={{ textDecoration: 'none', color: 'white' }}>
-            Scar <span>Matrix</span>
+    <nav>
+      <Link className='logo'>Scar<span>Matrics</span></Link>
+      <div className='menu' onClick={() => {
+        setmenuOpen(!menuOpen)
+      }}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={menuOpen ? "open" : ""}>
+        <li className='nav-item'>
+          <ScrollLink
+            to='home-section'
+            spy={true}
+            smooth={true}
+            duration={100}
+            className='nav-link'
+            onClick={scrollToHome}
+          >
+            Home
+          </ScrollLink>
+        </li>
+        <li className='nav-item'>
+          <ScrollLink
+            to='about-section'
+            spy={true}
+            smooth={true}
+            duration={100}
+            className='nav-link'
+            onClick={scrollToAbout}
+          >
+            About Us
+          </ScrollLink>
+        </li>
+        <li className='nav-item'>
+          <ScrollLink
+            to='contact-section'
+            spy={true}
+            smooth={true}
+            duration={100}
+            className='nav-link'
+            onClick={scrollToContact}
+          >
+            Contact
+          </ScrollLink>
+        </li>
+        <li className='nav-item'>
+          <Link to='/career' className='nav-link'>
+            Career
           </Link>
-          <div className='menu-icon' onClick={toggleMenu}>
-            <i className={isMenuOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
-          </div>
-          <ul className={isMenuOpen ? 'nav-links active' : 'nav-links'}>
-            <li className='nav-item'>
-              <ScrollLink
-                to='home-section'
-                spy={true}
-                smooth={true}
-                duration={100}
-                className='nav-link'
-                onClick={scrollToHome}
-              >
-                Home
-              </ScrollLink>
-            </li>
-            <li className='nav-item'>
-              <ScrollLink
-                to='about-section'
-                spy={true}
-                smooth={true}
-                duration={100}
-                className='nav-link'
-                onClick={scrollToAbout}
-              >
-                About Us
-              </ScrollLink>
-            </li>
-            <li className='nav-item'>
-              <ScrollLink
-                to='contact-section'
-                spy={true}
-                smooth={true}
-                duration={100}
-                className='nav-link'
-                onClick={scrollToContact}
-              >
-                Contact
-              </ScrollLink>
-            </li>
-            <li className='nav-item'>
-              <Link to='/career' className='nav-link'>
-                Career
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </>
-  );
+        </li>
+      </ul>
+    </nav>
+  )
 }
 
-export default Navbar;
+export default Navbar

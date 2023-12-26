@@ -28,6 +28,7 @@ img {
   
   .about-content {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -65,4 +66,47 @@ img {
     color: #666;
   }
   
+  
+
+@media (max-width:500px)
+{
+  .about-paragraph {
+    font-size: 12px;
+    color: #666;
+  }
+  .about-heading {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+  }
+  .about-image img {
+    max-width: 50%;
+    height: 50%;
+    margin-left: 50%;
+  }
+ 
+  .about-container {
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: f4decb;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid red;
+  }
+  .about-content {
+    align-items: center;
+    margin-bottom: 40px;
+    display: block;
+  }
+  
+
+ 
+  
+
+ 
+  
+}
   

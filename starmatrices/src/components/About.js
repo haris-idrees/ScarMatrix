@@ -6,7 +6,7 @@ import mission from './images/mission.jpg';
 export default function About() {
     return (
         <div className="container">
-            <section className="about-container">
+            <div className="about-container">
                 <div className="about-content">
                     <div className="about-image">
                         <img src={pic} alt="Image" className="about-img" />
@@ -20,26 +20,17 @@ export default function About() {
                 </div>
 
                 <div className="about-content">
-                    <div className="about-text">
-                        <h3 className="about-heading">Our Mission</h3>
-                        <p className="about-paragraph">
-                            Our mission is to create an open platform for programming
-                            enthusiasts to compete in coding competitions. We strive to provide
-                            our users with a well-designed, interactive, and fun experience that
-                            taps into their creativity and helps them learn. Through our
-                            platform, we hope to foster an environment of collaboration and
-                            competition, one where programmers can engage in problem-solving,
-                            challenge their skills, and become better coders in the process. In
-                            addition, we aim to support educators in their quest to teach
-                            students the fundamentals of coding and help create a new generation
-                            of tech professionals.
-                        </p>
-                    </div>
                     <div className="about-image">
                         <img src={mission} alt="Image" className="about-img" />
                     </div>
+                    <div className="about-text">
+                        <h3 className="about-heading">Our Mission</h3>
+                        <p className="about-paragraph">
+                        Our goal is to build a vibrant platform for coding enthusiasts to compete, learn, and grow. We provide an engaging and interactive experience, fostering creativity, collaboration, and healthy competition. Through our platform, users can enhance their problem-solving skills, challenge themselves, and evolve into proficient coders. We are committed to supporting educators in teaching coding fundamentals, contributing to the development of the next generation of tech professionals.
+                        </p>
+                    </div>
                 </div>
-            </section>
+            </div>
         </div>
     );
 }

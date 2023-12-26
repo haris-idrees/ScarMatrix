@@ -1,5 +1,15 @@
 /* Contact.css */
 
+
+.heading_con{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #00FFFF;
+  font-size: 44px;
+  margin-top: 50px;
+  margin-left: 40%;
+  text-decoration: underline;
+}
 .container-contact {
     margin-top: 50%;
     margin-left: 20%;
@@ -59,6 +69,4 @@
     cursor: pointer;
     border-radius: 5px;
   }
-  
-  /* Add more CSS styles as needed to customize your form's appearance */
   
